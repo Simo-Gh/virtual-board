@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" style="-fx-background-color: #20120F;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+	<children>
+            <ImageView fitHeight="622.0" fitWidth="853.0" opacity="0.13" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/try.jpg" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="723.0" layoutY="106.0" prefHeight="396.0" prefWidth="413.0" style="-fx-background-color: #9C2C27; -fx-background-radius: 3em;">
+               <children>
+                  <Label layoutX="65.0" layoutY="77.0" text="Select your mode" textFill="#e1dddd">
+                     <font>
+                        <Font size="33.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="42.0" layoutY="168.0" mnemonicParsing="false" onAction="#button_mode_manuelle" prefHeight="58.0" prefWidth="316.0" style="-fx-background-color: #E45652; -fx-background-radius: 1em;" text="Manuelle">
+                     <font>
+                        <Font size="20.0" />
+                     </font></Button>
+                  <Button layoutX="42.0" layoutY="257.0" mnemonicParsing="false"  prefHeight="58.0" prefWidth="316.0" style="-fx-background-color: #E45652; -fx-background-radius: 1em;" text="Visual">
+                     <font>
+                        <Font size="20.0" />
+                     </font></Button>
+               </children></AnchorPane>
+            <Label layoutX="25.0" layoutY="202.0" text="Welcome to the virtual table" textFill="WHITE">
+               <font>
+                  <Font size="46.0" />
+               </font>
+            </Label>
+            <Label layoutX="98.0" layoutY="277.0" text="to make your world a better place and to discover" textFill="#cdc8c8">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="106.0" layoutY="302.0" text=" it at the same time." textFill="#cdc7c7">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="172.0" layoutY="362.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="285.0" style="-fx-background-radius: 1em;" text="About" />
+         </children>
+</AnchorPane>

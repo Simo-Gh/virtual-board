@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane fx:id="rootPane_manuelle" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ManuelleController">
+	<children>
+            <ImageView fitHeight="600.0" fitWidth="1200.0" pickOnBounds="true">
+               <image>
+                  <Image url="@images/tt.jpg" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="292.0" layoutY="126.0" prefHeight="452.0" prefWidth="883.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 1em;" />
+            <AnchorPane layoutX="38.0" layoutY="22.0" opacity="0.66" prefHeight="84.0" prefWidth="350.0" style="-fx-background-color: #000000; -fx-background-radius: 2em;">
+               <children>
+                  <Label layoutX="41.0" layoutY="15.0" text="Virtuel table" textFill="WHITE">
+                     <font>
+                        <Font size="46.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Slider layoutX="90.0" layoutY="148.0" prefHeight="20.0" prefWidth="152.0" />
+            <Slider layoutX="90.0" layoutY="183.0" prefHeight="20.0" prefWidth="152.0" />
+            <ImageView fitHeight="37.0" fitWidth="45.0" layoutX="30.0" layoutY="139.0" opacity="0.53" pickOnBounds="true">
+               <image>
+                  <Image url="@images/pen.jpg" />
+               </image>
+            </ImageView>
+            <ColorPicker layoutX="53.0" layoutY="222.0" prefHeight="27.0" prefWidth="185.0" style="-fx-background-radius: 1em;" />
+            <AnchorPane layoutX="18.0" layoutY="294.0" prefHeight="263.0" prefWidth="251.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 1em;" />
+            <ImageView fitHeight="36.0" fitWidth="43.0" layoutX="30.0" layoutY="175.0" opacity="0.47" pickOnBounds="true">
+               <image>
+                  <Image url="@images/gomme.jpg" />
+               </image>
+            </ImageView>
+            <CheckBox layoutX="250.0" layoutY="148.0" mnemonicParsing="false" />
+            <CheckBox layoutX="250.0" layoutY="185.0" mnemonicParsing="false" />
+            <AnchorPane layoutX="384.0" layoutY="34.0" prefHeight="62.0" prefWidth="801.0" style="-fx-background-color: #000000;" />
+            <Button layoutX="396.0" layoutY="43.0" mnemonicParsing="false" onAction="#button_retour_menu" prefHeight="45.0" prefWidth="185.0" style="-fx-background-radius: 1em; -fx-background-color: #FFFFFF;" text="     Back to menu" />
+            <Button layoutX="597.0" layoutY="41.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="185.0" style="-fx-background-radius: 1em; -fx-background-color: #FFFFFF;" text="     New" />
+            <Button layoutX="794.0" layoutY="42.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="185.0" style="-fx-background-radius: 1em; -fx-background-color: #FFFFFF;" text="   SAVE" />
+            <Button layoutX="990.0" layoutY="41.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="185.0" style="-fx-background-radius: 1em; -fx-background-color: #FFFFFF;" text="        Select" />
+            <ImageView fitHeight="18.0" fitWidth="24.0" layoutX="424.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/menu.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="24.0" layoutX="641.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/new.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="24.0" layoutX="1040.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/select.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="24.0" layoutX="839.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/save.jpg" />
+               </image>
+            </ImageView>
+         </children>
+ </AnchorPane>

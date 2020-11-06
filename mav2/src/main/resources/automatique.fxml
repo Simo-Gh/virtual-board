@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane  maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AutomatiqueController">
+	<children>
+            <ImageView fitHeight="600.0" fitWidth="1200.0" pickOnBounds="true">
+               <image>
+                  <Image url="@images/tt.jpg" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="292.0" layoutY="126.0" prefHeight="452.0" prefWidth="883.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 1em;" />
+            <AnchorPane layoutX="38.0" layoutY="22.0" opacity="0.66" prefHeight="84.0" prefWidth="350.0" style="-fx-background-color: #000000; -fx-background-radius: 2em;">
+               <children>
+                  <Label layoutX="41.0" layoutY="15.0" text="Virtuel table" textFill="WHITE">
+                     <font>
+                        <Font size="46.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="18.0" layoutY="294.0" prefHeight="263.0" prefWidth="251.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 1em;" />
+            <AnchorPane layoutX="384.0" layoutY="34.0" prefHeight="62.0" prefWidth="218.0" style="-fx-background-color: #000000;" />
+            <Button layoutX="396.0" layoutY="43.0" mnemonicParsing="false"  prefHeight="45.0" prefWidth="185.0" style="-fx-background-radius: 1em; -fx-background-color: #FFFFFF;" text="     Back to menu" />
+            <ImageView fitHeight="18.0" fitWidth="24.0" layoutX="424.0" layoutY="57.0"  pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/menu.jpg" />
+               </image>
+            </ImageView>
+         </children>
+ </AnchorPane>
