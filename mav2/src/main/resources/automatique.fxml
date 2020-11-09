@@ -25,13 +25,17 @@
                   </Label>
                </children>
             </AnchorPane>
-            <AnchorPane layoutX="18.0" layoutY="294.0" prefHeight="263.0" prefWidth="251.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 1em;" />
+            <AnchorPane layoutX="32.0" layoutY="126.0" prefHeight="189.0" prefWidth="335.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 1em;">
+         <children>
+            <ImageView fx:id="currentFrame" fitHeight="179.0" fitWidth="326.0" layoutX="7.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" />
+         </children></AnchorPane>
             <AnchorPane layoutX="384.0" layoutY="34.0" prefHeight="62.0" prefWidth="218.0" style="-fx-background-color: #000000;" />
-            <Button layoutX="396.0" layoutY="43.0" mnemonicParsing="false"  prefHeight="45.0" prefWidth="185.0" style="-fx-background-radius: 1em; -fx-background-color: #FFFFFF;" text="     Back to menu" />
-            <ImageView fitHeight="18.0" fitWidth="24.0" layoutX="424.0" layoutY="57.0"  pickOnBounds="true" preserveRatio="true">
+            <Button layoutX="396.0" layoutY="43.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="185.0" style="-fx-background-radius: 1em; -fx-background-color: #FFFFFF;" text="     Back to menu" />
+            <ImageView fitHeight="18.0" fitWidth="24.0" layoutX="424.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@images/menu.jpg" />
                </image>
             </ImageView>
+      <Button fx:id="button" layoutX="124.0" layoutY="325.0" mnemonicParsing="false" onAction="#startCamera" prefHeight="27.0" prefWidth="152.0" text="Start" />
          </children>
  </AnchorPane>
